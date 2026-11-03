@@ -101,6 +101,15 @@
   }));
   root.lang = lang;
 
+  // botón para volver al inicio en las páginas internas
+  if (page !== "inicio") {
+    const home = document.createElement("a");
+    home.className = "home-fab";
+    home.href = "index.html";
+    home.innerHTML = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg>${t({ es: "Inicio", en: "Home" })}`;
+    document.body.appendChild(home);
+  }
+
   // revelado al bajar
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const els = document.querySelectorAll(".reveal");

@@ -290,3 +290,14 @@ fieldset{border:0;padding:0;margin:0}
 .elders.single .elder.is-open{animation:fadeIn .5s ease both}
 @media (max-width:700px){.elders.single .elder.is-open{grid-template-columns:1fr}.elders.single .elder.is-open .stack{padding:0 20px 22px !important}}
 @media (prefers-reduced-motion: reduce){.elders.single .elder.is-open{animation:none}}
+
+/* Botón fijo "Inicio" en las páginas internas */
+.home-fab{position:fixed;left:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:50;display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;background:var(--char);color:var(--on-char);border:1px solid var(--wood);font-weight:700;font-size:15px;text-decoration:none;box-shadow:0 10px 24px -12px rgba(0,0,0,.55);transition:transform .25s,background .25s}
+.home-fab:hover{transform:translateY(-2px);background:var(--char-2);color:var(--on-char)}
+.home-fab svg{color:var(--wood-bright)}
+@media print{.home-fab{display:none}}
+
+/* Inicio: bloque para escoger a dónde ir */
+.home-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1000px){.home-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.home-nav{grid-template-columns:1fr}}
