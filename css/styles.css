@@ -273,3 +273,20 @@ fieldset{border:0;padding:0;margin:0}
   .js .reveal{opacity:1;transform:none}
   .intro{display:none}
 }
+
+/* Vista individual de cada anciano (nosotros.html#slug) */
+.elder-more{justify-self:start;margin-top:6px;font-size:14px;font-weight:700;letter-spacing:.04em;color:var(--wood);text-decoration:none;border-bottom:1px solid transparent;transition:border-color .25s}
+.elder-more:hover{border-bottom-color:var(--wood)}
+.elder > img{cursor:pointer}
+.elders-back{display:inline-flex;gap:8px;align-items:center;margin:0 0 18px;font-weight:700;font-size:15px;color:var(--wood);text-decoration:none}
+.elders-back[hidden]{display:none}
+.elders-back:hover{text-decoration:underline}
+.elders.single{grid-template-columns:1fr}
+.elders.single .elder:not(.is-open){display:none}
+.elders.single .elder.is-open{grid-template-columns:minmax(0,400px) 1fr;align-items:start;gap:28px}
+.elders.single .elder.is-open .stack{padding:26px 28px 26px 0 !important}
+.elders.single .elder.is-open .elder-more{display:none}
+.elders.single .elder.is-open > img{cursor:default}
+.elders.single .elder.is-open{animation:fadeIn .5s ease both}
+@media (max-width:700px){.elders.single .elder.is-open{grid-template-columns:1fr}.elders.single .elder.is-open .stack{padding:0 20px 22px !important}}
+@media (prefers-reduced-motion: reduce){.elders.single .elder.is-open{animation:none}}

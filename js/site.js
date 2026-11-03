@@ -115,6 +115,33 @@
     setTimeout(() => els.forEach(el => el.classList.add("in")), 4000);
   }
 
+  // vista individual de cada anciano: nosotros.html#slug
+  const eldersBox = document.querySelector(".elders");
+  if (eldersBox) {
+    const back = document.querySelector(".elders-back");
+    const cards = [...eldersBox.querySelectorAll(".elder[id]")];
+    const show = (scroll) => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      const open = cards.find(c => c.id === id);
+      eldersBox.classList.toggle("single", !!open);
+      cards.forEach(c => c.classList.toggle("is-open", c === open));
+      if (back) back.hidden = !open;
+      if (open) {
+        open.classList.add("in");
+        if (scroll) {
+          const go = () => document.getElementById("ancianos").scrollIntoView({ behavior: "auto", block: "start" });
+          requestAnimationFrame(go); setTimeout(go, 80); window.addEventListener("load", go, { once: true });
+        }
+      }
+    };
+    cards.forEach(c => {
+      const img = c.querySelector(":scope > img");
+      if (img) img.addEventListener("click", () => { if (!c.classList.contains("is-open")) location.hash = c.id; });
+    });
+    window.addEventListener("hashchange", () => show(true));
+    show(!!location.hash && location.hash !== "#ancianos");
+  }
+
   // indicador "en vivo" durante los horarios de culto (hora de Nueva Jersey)
   try {
     const parts = new Intl.DateTimeFormat("en-US", { timeZone: "America/New_York", weekday: "short", hour: "numeric", minute: "numeric", hour12: false }).formatToParts(new Date());
