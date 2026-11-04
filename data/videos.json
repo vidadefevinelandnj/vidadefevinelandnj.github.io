@@ -1,7 +1,83 @@
 {
- "updated": "2026-11-04T03:00:25+00:00",
+ "updated": "2026-11-04T18:39:10+00:00",
  "playlists": {
-  "eclesiastes": [],
+  "eclesiastes": [
+   {
+    "id": "_NoTQqxBICY",
+    "title": "Cuando la Maldad Parece Ganar… Dios Sigue Reinando / When Evil Seems to Win… God Still Reigns",
+    "published": "2026-09-04T22:48:07+00:00"
+   },
+   {
+    "id": "tPy1gK-yeQo",
+    "title": "Sabiduría Para un Mundo Fuera de Control / Wisdom for a World Out of Control",
+    "published": "2026-09-04T22:40:34+00:00"
+   },
+   {
+    "id": "LPk98CE_NlQ",
+    "title": "Sabiduría Para Un Mundo Fuera de Control | Wisdom for a World Out of Control",
+    "published": "2026-09-04T22:01:57+00:00"
+   },
+   {
+    "id": "ebsqkv4R8oI",
+    "title": "Las Trampas de la Falsa Sabiduría | The Traps of False Wisdom",
+    "published": "2026-09-04T21:52:31+00:00"
+   },
+   {
+    "id": "JPD1hIgLKn4",
+    "title": "Temer a Dios: La Mejor Manera de Vivir | Fearing God: The Best Way to Live",
+    "published": "2026-09-02T01:02:38+00:00"
+   },
+   {
+    "id": "-vJ1gV3eWQI",
+    "title": "Dios en el Día Bueno y en el Día Malo | God in the Good Day and the Bad Day",
+    "published": "2026-09-02T00:59:49+00:00"
+   },
+   {
+    "id": "RDz0MdE4bmU",
+    "title": "Marcas de la Sabiduría Divina / Marks of Godly Wisdom",
+    "published": "2026-07-27T23:48:01+00:00"
+   },
+   {
+    "id": "p-BQqeFuvYU",
+    "title": "La Perspectiva que Despierta el Alma / The Perspective That Awakens the Soul",
+    "published": "2026-07-15T01:17:44+00:00"
+   },
+   {
+    "id": "6ttt7-Lg9OU",
+    "title": "Sabiduría para Vivir Bien / Wisdom for Living Well",
+    "published": "2026-07-15T01:01:25+00:00"
+   },
+   {
+    "id": "fLG-rY4gDAw",
+    "title": "La Sabiduría que Forma el Carácter / Wisdom That Shapes Character",
+    "published": "2026-07-15T00:47:41+00:00"
+   },
+   {
+    "id": "H20-DdTBss0",
+    "title": "Cuando Dios Habla al Corazón / When God Speaks to the Heart",
+    "published": "2026-07-01T21:54:13+00:00"
+   },
+   {
+    "id": "Irkw8ksIaK4",
+    "title": "Cuando el Hombre Contiende con Dios / When Man Contends with God",
+    "published": "2026-07-01T21:35:10+00:00"
+   },
+   {
+    "id": "xORwlQ78kaI",
+    "title": "La Insatisfacción del Alma Sin Dios / The Soul’s Emptiness Without God.",
+    "published": "2026-06-30T00:55:14+00:00"
+   },
+   {
+    "id": "UgmqHwkFGyU",
+    "title": "Viviendo Agradecidos en un Mundo Corrupto / Gratitude and Godliness in a Broken World",
+    "published": "2026-06-28T12:56:39+00:00"
+   },
+   {
+    "id": "vC0KKDlgvBU",
+    "title": "Los Beneficios del Compañerismo / The Benefits of Companionship",
+    "published": "2026-05-27T01:23:19+00:00"
+   }
+  ],
   "vidaperfecta": [
    {
     "id": "IG-UpykzRDw",
@@ -96,8 +172,146 @@
     "published": "2026-01-11T23:26:43+00:00"
    }
   ],
-  "pensamientos": [],
-  "especiales": [],
-  "conferencias": []
+  "pensamientos": [
+   {
+    "id": "JfVafPzDqK8",
+    "title": "Yo Soy el Pan de Vida | I Am the Bread of Life",
+    "published": "2026-10-27T23:08:51+00:00"
+   },
+   {
+    "id": "Cv7VRC7-yWM",
+    "title": "Despojaos del Viejo Hombre | Put Off the Old Self",
+    "published": "2026-10-27T23:02:40+00:00"
+   },
+   {
+    "id": "2OmgTZzmgJc",
+    "title": "Los Redimidos del Señor Den Gracias / Let the Redeemed of the Lord Give Thanks",
+    "published": "2026-09-04T22:45:49+00:00"
+   },
+   {
+    "id": "BtiV4VOQ-Jc",
+    "title": "Cuando La Vida No Tiene Sentido… Dios Sí | When Life Makes No Sense… God Does",
+    "published": "2026-09-04T22:11:06+00:00"
+   },
+   {
+    "id": "Bp3u9pYuO5s",
+    "title": "Firme Porque Dios Está a Mi Diestra | Steadfast Because God Is at My Right Hand",
+    "published": "2026-09-04T21:55:56+00:00"
+   },
+   {
+    "id": "s-Q_ZICBeqc",
+    "title": "Permanecer en la Presencia de Dios | Dwelling in the Presence of God",
+    "published": "2026-09-04T21:45:50+00:00"
+   },
+   {
+    "id": "GFseD3pTfqI",
+    "title": "La Necedad del Corazón y la Gracia de Cristo | The Folly of the Heart and the Grace of Christ",
+    "published": "2026-09-01T23:37:42+00:00"
+   },
+   {
+    "id": "E2xIcqrQHWA",
+    "title": "Dios No Está Ausente | God Is Not Absent",
+    "published": "2026-07-21T22:34:20+00:00"
+   },
+   {
+    "id": "AcA_4MOshTc",
+    "title": "La Voz que Purifica / The Voice That Purifies",
+    "published": "2026-07-15T01:06:07+00:00"
+   },
+   {
+    "id": "0PX3lEn6pXE",
+    "title": "Alabando al Dios Vivo / Praising the Living God",
+    "published": "2026-07-15T00:52:30+00:00"
+   },
+   {
+    "id": "oTkhAfRDaH8",
+    "title": "Cuando el Corazón Olvida la Verdad / When the Heart Forgets the Truth",
+    "published": "2026-07-01T21:58:03+00:00"
+   },
+   {
+    "id": "JWUNXeO_Vqo",
+    "title": "Vivir Como Si Dios No Viera / Living as If God Doesn’t See",
+    "published": "2026-07-01T21:39:55+00:00"
+   },
+   {
+    "id": "8fkz3nLcVtU",
+    "title": "Paciencia Hasta la Venida del Señor / Patience Until the Lord’s Coming",
+    "published": "2026-06-30T00:58:43+00:00"
+   },
+   {
+    "id": "G95d66UYQZw",
+    "title": "No Temas: El Señor Pelea por Ti / Do Not Fear: The Lord Fights for You",
+    "published": "2026-06-30T00:51:34+00:00"
+   },
+   {
+    "id": "_3BTkv7_R6A",
+    "title": "El Dios de Toda Consolación / The God of All Comfort",
+    "published": "2026-05-10T04:09:47+00:00"
+   }
+  ],
+  "especiales": [
+   {
+    "id": "9uumhNobYr0",
+    "title": "Apreciacion Pastoral",
+    "published": "2026-10-04T13:42:33+00:00"
+   },
+   {
+    "id": "IXGnm1cIbeE",
+    "title": "Instalación del Hno. Jonathan T. como Anciano / Installation of Brother Jonathan T. as Elder",
+    "published": "2026-07-15T01:22:13+00:00"
+   },
+   {
+    "id": "QB_IRqI7x3E",
+    "title": "Bautismos / Baptisms",
+    "published": "2026-05-08T02:55:07+00:00"
+   },
+   {
+    "id": "I_gh9P5aqFs",
+    "title": "Amistades Piadosas / Godly Friendship",
+    "published": "2026-03-18T01:23:36+00:00"
+   },
+   {
+    "id": "heFjS5nUluo",
+    "title": "Servicio de Nochebuena 2025 / Christmas Eve Service 2025",
+    "published": "2025-12-26T00:14:08+00:00"
+   },
+   {
+    "id": "45akt3sv844",
+    "title": "La Paz que Solo Cristo Da / The Peace Only Christ Gives",
+    "published": "2025-12-25T20:25:54+00:00"
+   },
+   {
+    "id": "xQ5dOprxTY4",
+    "title": "Amados Primero por Dios / Loved First by God",
+    "published": "2025-12-25T20:08:54+00:00"
+   },
+   {
+    "id": "16Oquz8MM3E",
+    "title": "Jesús, la Fuente de Nuestro Gozo / Jesus, the Source of Our Joy",
+    "published": "2025-12-25T18:11:24+00:00"
+   },
+   {
+    "id": "oH_dPXz3eF8",
+    "title": "Esperanza que Nace de la Fidelidad de Dios / Hope Rooted in God’s Faithfulness",
+    "published": "2025-12-25T17:49:49+00:00"
+   },
+   {
+    "id": "6w12gnFRPkE",
+    "title": "Servicio de Accion de Gracias 2025 / Thanksgiving Service 2025",
+    "published": "2025-12-23T02:06:53+00:00"
+   }
+  ],
+  "conferencias": [
+   {
+    "id": "0nxx6H75ntM",
+    "title": "La Fortaleza que Nace de la Debilidad / Strength Through Weakness",
+    "published": "2026-05-10T03:32:59+00:00"
+   },
+   {
+    "id": "gjyC6SCn918",
+    "title": "Mi Poder se Perfecciona en la Debilidad / My Power Is Made Perfect in Weakness",
+    "published": "2026-05-09T13:14:52+00:00"
+   }
+  ]
  }
 }
