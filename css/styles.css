@@ -301,3 +301,16 @@ fieldset{border:0;padding:0;margin:0}
 .home-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:1000px){.home-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.home-nav{grid-template-columns:1fr}}
+
+/* Formularios en el celular */
+.field input[type=radio],.field input[type=checkbox],.choice input{width:auto;padding:0;flex:none;accent-color:var(--wood)}
+#fbox{scroll-margin-top:84px}
+@media (max-width:620px){
+  .forms-nav{display:flex;overflow-x:auto;gap:8px;margin:0 -18px 20px;padding:2px 18px 8px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
+  .forms-nav button{flex:none;scroll-snap-align:start;padding:10px 14px;font-size:15px;border-radius:999px;gap:0;white-space:nowrap}
+  .forms-nav button small{display:none}
+  .choice label{padding:10px 14px}
+  form.vdf{padding:20px 16px}
+  form.vdf .verse{font-size:19px !important}
+  body:not([data-page="inicio"]){padding-bottom:72px}
+}

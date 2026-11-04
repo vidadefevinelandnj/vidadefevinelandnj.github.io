@@ -148,7 +148,7 @@ window.VDF_MIN = [
     name: { es: "Amor en Acción", en: "Love in Action" },
     desc: { es: "Reflejan el amor de Cristo ayudando a personas en situaciones de necesidad. Cada solicitud es evaluada por el ministerio conforme a los criterios de la iglesia.", en: "They reflect the love of Christ by helping people in times of need. Every request is reviewed by the ministry according to the church's criteria." },
     acts: [
-      { t: { es: "Ayuda según el caso", en: "Help case by case" }, d: { es: "Comida, tarjetas de compra o ayuda con servicios como luz y agua, después de una revisión.", en: "Food, grocery cards or help with utilities such as electricity and water, after review." } },
+      { t: { es: "Ayuda según el caso", en: "Help case by case" }, d: { es: "Después de revisar cada solicitud, la iglesia decide la ayuda adecuada.", en: "After reviewing each request, the church decides on the appropriate help." } },
       { t: { es: "Thanksgiving", en: "Thanksgiving" }, d: { es: "Regalos de Thanksgiving para familias.", en: "Thanksgiving gifts for families." } }
     ],
     verses: [

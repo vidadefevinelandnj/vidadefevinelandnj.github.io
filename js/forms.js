@@ -22,8 +22,7 @@
     { id: "necesidad", title: { es: "Necesidad", en: "Need" }, small: { es: "Amor en Acción", en: "Love in Action" },
       verse: { es: "Hijos, no amemos de palabra ni de lengua, sino de hecho y en verdad.", en: "Little children, let us not love with word or with tongue, but in deed and truth.", ref: { es: "1 Juan 3:18", en: "1 John 3:18" } },
       notice: { es: "Toda solicitud es evaluada por el ministerio Amor en Acción conforme a los criterios de la iglesia. Enviar este formulario no garantiza la ayuda; nos comunicaremos contigo.", en: "Every request is reviewed by the Love in Action ministry according to the church's criteria. Sending this form does not guarantee assistance; we will contact you." },
-      route: { n: "tipo", l: { es: "Tipo de necesidad", en: "Type of need" }, opts: [["Comida", { es: "Comida", en: "Food" }], ["Tarjeta de compra", { es: "Tarjeta de compra", en: "Grocery card" }], ["Servicios", { es: "Luz, agua u otro servicio", en: "Utilities" }], ["Otra", { es: "Otra", en: "Other" }]] },
-      subject: v => `[Amor en Acción] Solicitud de ayuda · ${v.tipo || ""}`,
+      subject: () => "[Amor en Acción] Solicitud de ayuda",
       fields: [...contact.map(f => f.n === "telefono" ? { ...f, req: true } : f), { n: "mensaje", l: { es: "Describe tu situación", en: "Describe your situation" }, type: "textarea", req: true }] },
     { id: "misiones", title: { es: "Misiones", en: "Missions" }, small: { es: "Para iglesias y misiones", en: "For churches and missions" },
       verse: { es: "¿Cómo, pues, invocarán a Aquel en quien no han creído? ¿Y cómo creerán en Aquel de quien no han oído? ¿Y cómo oirán sin haber quien les predique?", en: "How then will they call on Him in whom they have not believed? How will they believe in Him whom they have not heard? And how will they hear without a preacher?", ref: { es: "Romanos 10:14", en: "Romans 10:14" } },
@@ -97,7 +96,7 @@
     }
   }
 
-  nav.addEventListener("click", e => { const b = e.target.closest("[data-f]"); if (b) { history.replaceState(null, "", "#" + b.dataset.f); render(b.dataset.f); } });
+  nav.addEventListener("click", e => { const b = e.target.closest("[data-f]"); if (b) { history.replaceState(null, "", "#" + b.dataset.f); render(b.dataset.f); if (matchMedia("(max-width:620px)").matches) box.scrollIntoView({ behavior: "smooth", block: "start" }); } });
   window.addEventListener("hashchange", () => render(location.hash.slice(1)));
   render(location.hash.slice(1) || "oracion");
 })();
