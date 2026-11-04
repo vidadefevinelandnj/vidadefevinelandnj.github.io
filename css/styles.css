@@ -301,3 +301,11 @@ fieldset{border:0;padding:0;margin:0}
 .home-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
 @media (max-width:1000px){.home-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.home-nav{grid-template-columns:1fr}}
+
+/* Inicio: tarjeta para ver el culto en vivo (Safari bloquea la ventana de Facebook) */
+.live-card{position:relative;border-radius:var(--radius);overflow:hidden;color:var(--on-char);background:linear-gradient(100deg,rgba(42,44,47,.94) 35%,rgba(42,44,47,.55)),url(../img/santuario.jpg) center/cover;min-height:300px;display:grid;align-items:center}
+.live-card-body{padding:40px;max-width:620px;display:grid;gap:14px}
+.live-card h3{font-size:clamp(26px,4vw,36px);color:var(--on-char)}
+.live-card p{color:var(--on-char-muted);margin:0}
+.live-badge{display:inline-flex;align-items:center;gap:8px;justify-self:start;font:700 12px var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--wood-bright)}
+@media (max-width:560px){.live-card-body{padding:28px 22px}}
