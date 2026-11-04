@@ -314,3 +314,13 @@ fieldset{border:0;padding:0;margin:0}
   form.vdf .verse{font-size:19px !important}
   body:not([data-page="inicio"]){padding-bottom:72px}
 }
+
+/* Inicio: tarjeta para ver el culto en vivo */
+.live-card{position:relative;border-radius:var(--radius);overflow:hidden;color:var(--on-char);background:linear-gradient(100deg,rgba(42,44,47,.95) 40%,rgba(42,44,47,.6)),url(../img/santuario.jpg) center/cover;display:grid;align-items:center}
+.live-card-body{padding:40px;max-width:640px;display:grid;gap:14px}
+.live-card h3{font-size:clamp(26px,4vw,36px);color:var(--on-char)}
+.live-card p{color:var(--on-char-muted);margin:0}
+.live-card .live-tip{background:rgba(255,255,255,.07);border-left:3px solid var(--wood-bright);border-radius:8px;padding:12px 14px;font-size:15px}
+.live-card .live-tip b{color:var(--on-char)}
+.live-badge{font:700 12px var(--f-body);letter-spacing:.18em;text-transform:uppercase;color:var(--wood-bright)}
+@media (max-width:560px){.live-card-body{padding:28px 20px}}
