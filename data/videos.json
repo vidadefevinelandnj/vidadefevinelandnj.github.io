@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:39:10+00:00",
+ "updated": "2026-11-07T16:50:32+00:00",
  "playlists": {
   "eclesiastes": [
    {
@@ -80,6 +80,11 @@
   ],
   "vidaperfecta": [
    {
+    "id": "bNynPafE-wY",
+    "title": "Judas: Cerca de Cristo, Lejos de la Fe | Judas: Near to Christ, Far from Faith",
+    "published": "2026-11-06T23:22:11+00:00"
+   },
+   {
     "id": "IG-UpykzRDw",
     "title": "La Apariencia Religiosa y el Corazón Verdadero",
     "published": "2026-10-27T23:13:54+00:00"
@@ -148,11 +153,6 @@
     "id": "kOPKY1OapjY",
     "title": "Apariencia o Transformación / Appearance or Transformation.",
     "published": "2026-06-29T00:34:16+00:00"
-   },
-   {
-    "id": "pNkMqk7MXRw",
-    "title": "Evidencias de una Fe Verdadera / Evidence of True Faith",
-    "published": "2026-05-13T01:47:50+00:00"
    }
   ],
   "sermones": [
@@ -173,6 +173,16 @@
    }
   ],
   "pensamientos": [
+   {
+    "id": "3pHh3qtbzbs",
+    "title": "La Advertencia Contra los Ídolos del Corazón | The Warning Against the Idols of the Heart",
+    "published": "2026-11-06T23:18:10+00:00"
+   },
+   {
+    "id": "vrcOHRLUuzk",
+    "title": "La Satisfacción del Alma en Dios | The Soul's Satisfaction in God",
+    "published": "2026-11-06T23:09:31+00:00"
+   },
    {
     "id": "JfVafPzDqK8",
     "title": "Yo Soy el Pan de Vida | I Am the Bread of Life",
@@ -237,16 +247,6 @@
     "id": "8fkz3nLcVtU",
     "title": "Paciencia Hasta la Venida del Señor / Patience Until the Lord’s Coming",
     "published": "2026-06-30T00:58:43+00:00"
-   },
-   {
-    "id": "G95d66UYQZw",
-    "title": "No Temas: El Señor Pelea por Ti / Do Not Fear: The Lord Fights for You",
-    "published": "2026-06-30T00:51:34+00:00"
-   },
-   {
-    "id": "_3BTkv7_R6A",
-    "title": "El Dios de Toda Consolación / The God of All Comfort",
-    "published": "2026-05-10T04:09:47+00:00"
    }
   ],
   "especiales": [
